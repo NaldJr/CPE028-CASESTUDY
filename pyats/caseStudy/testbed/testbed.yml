@@ -1,0 +1,27 @@
+devices:
+  R1:
+    connections:
+      cli:
+        ip: 10.10.0.1
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5PDosOUw5fDosKQwpbCmMKH}'
+        username: cisco
+      enable:
+        password: '%ENC{w5PDosOUw5fDog==}'
+    os: ios
+    type: ios
+  R2:
+    connections:
+      cli:
+        ip: 172.168.1.1
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5PDosOUw5fDosKQwpbCmMKH}'
+        username: cisco
+      enable:
+        password: '%ENC{w5PDosOUw5fDog==}'
+    os: ios
+    type: ios
